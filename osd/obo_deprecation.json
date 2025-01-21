@@ -1,0 +1,9 @@
+{
+    "severity": "Warning",
+    "service_name": "SREManualAction",
+    "log_type": "cluster-configuration",
+    "summary": "Deprecation Notice: Observability Operator",
+    "description": "The Observability Operator (OBO), installed by default on every OSD and ROSA (non-hcp) cluster, is being removed from all clusters on January 30, 2025, after when you can isntall the Cluster Observability Operator from OperatorHub to resume the functionality. See linked article for details.",
+    "doc_references": ["https://access.redhat.com/articles/7103797"],
+    "internal_only": false
+}
